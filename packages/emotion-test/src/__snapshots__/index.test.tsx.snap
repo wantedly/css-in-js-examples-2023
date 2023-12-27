@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `"<head><style data-emotion="css" data-s="">.css-1mcldbr{background:red;}</style></head><body><div id="root"><button class="css-1mcldbr">Test</button></div></body>"`;
