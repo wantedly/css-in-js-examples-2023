@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `"<head><style data-styled="active" data-styled-version="6.1.4">.bmcGJu{background:red;}</style></head><body><div><button class="basic__Button-sc-w201kt-0 bmcGJu">Test</button></div></body>"`;
