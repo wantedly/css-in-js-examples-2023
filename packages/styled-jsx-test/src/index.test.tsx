@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOMClient from "react-dom/client";
 import { act } from 'react-dom/test-utils';
 import { test, expect } from "@jest/globals";
