@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `"<head><style type="text/css" data-styled-jsx="">button.jsx-821619938{background:red;}</style></head><body><div id="root"><button class="jsx-821619938">Test</button></div></body>"`;

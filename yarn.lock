@@ -2543,6 +2543,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"client-only@npm:0.0.1":
+  version: 0.0.1
+  resolution: "client-only@npm:0.0.1"
+  checksum: 9d6cfd0c19e1c96a434605added99dff48482152af791ec4172fb912a71cff9027ff174efd8cdb2160cc7f377543e0537ffc462d4f279bc4701de3f2a3c4b358
+  languageName: node
+  linkType: hard
+
 "cliui@npm:^8.0.1":
   version: 8.0.1
   resolution: "cliui@npm:8.0.1"
@@ -5159,6 +5166,43 @@ __metadata:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
   checksum: 45ecb132accf6b6077cea04ed02d849f22db128ce82a89ba9d7ec5cb96c2348581221b53467f4cbcc17d4c5a3fa699c5d898ae7aa853ccc36e5b5b5279e98b5c
+  languageName: node
+  linkType: hard
+
+"styled-jsx-test@workspace:packages/styled-jsx-test":
+  version: 0.0.0-use.local
+  resolution: "styled-jsx-test@workspace:packages/styled-jsx-test"
+  dependencies:
+    "@babel/cli": "npm:^7.23.4"
+    "@babel/core": "npm:^7.23.6"
+    "@babel/preset-env": "npm:^7.23.6"
+    "@babel/preset-react": "npm:^7.23.3"
+    "@babel/preset-typescript": "npm:^7.23.3"
+    "@jest/globals": "npm:^29.7.0"
+    "@types/react": "npm:^18.2.45"
+    "@types/react-dom": "npm:^18.2.18"
+    babel-jest: "npm:^29.7.0"
+    jest: "npm:^29.7.0"
+    jest-environment-jsdom: "npm:^29.7.0"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    styled-jsx: "npm:^5.1.2"
+  languageName: unknown
+  linkType: soft
+
+"styled-jsx@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "styled-jsx@npm:5.1.2"
+  dependencies:
+    client-only: "npm:0.0.1"
+  peerDependencies:
+    react: ">= 16.8.0 || 17.x.x || ^18.0.0-0"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    babel-plugin-macros:
+      optional: true
+  checksum: 4cfbedd28d4ccd0ad95e54734a39399713d182b34c39204ac48b0f748721900c7f208674b4e2a05565ec6a3cb9539c6fffddf6de228a3a073f602da1742eac6b
   languageName: node
   linkType: hard
 
