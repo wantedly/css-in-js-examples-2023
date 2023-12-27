@@ -1,4 +1,8 @@
 {
   "name": "css-in-js-test",
-  "packageManager": "yarn@4.0.2"
+  "private": true,
+  "packageManager": "yarn@4.0.2",
+  "workspaces": [
+    "packages/*"
+  ]
 }
